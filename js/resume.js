@@ -25,4 +25,6 @@
     target: '#sideNav'
   });
 
+  // TODO: Lots of animations/fade-ins eventually
+
 })(jQuery); // End of use strict
