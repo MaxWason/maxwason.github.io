@@ -49,6 +49,9 @@ h2 {
   .list-icons .list-inline-item i:hover {
     color: #900202; }
 
+li:not(:last-child) {
+  margin-bottom: 5px; }
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
   text-transform: uppercase; }
