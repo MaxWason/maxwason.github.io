@@ -2,4 +2,4 @@
 
 Initially based off of the [Resume](https://startbootstrap.com/template-overviews/resume/) Bootstrap 4 template, but heavily modified. Hosted via [GitHub Pages](https://pages.github.com/).
 
-Uses best practices such as responsive design, SSL certifications for https, performance optimizations, and more.
+Uses best practices such as responsive design, SSL certification for https, performance optimizations, and more.
