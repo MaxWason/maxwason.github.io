@@ -55,6 +55,19 @@ h2 {
 li:not(:last-child) {
   margin-bottom: 5px; }
 
+#companyImages img {
+  margin: 1rem;
+  width: 5rem;
+  height: 5rem;
+  filter: grayscale(100%); }
+  #companyImages img:hover {
+    filter: none; }
+
+.bordered {
+  border: 3px solid #343a40; }
+  .bordered p {
+    margin: 1rem; }
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
   text-transform: uppercase; }

@@ -69,3 +69,25 @@ h2 {
 li:not(:last-child) {
     margin-bottom: 5px;
 }
+
+// Grayscale company images, provide spacing, and limit size
+//TODO: Better implementation of sizing, (add links/tooltips onClick?)
+#companyImages {
+  img {
+      margin: 1rem;
+      width: 5rem;
+      height: 5rem;
+      filter: grayscale(100%);
+      &:hover {
+        filter: none;
+      }
+  }
+}
+
+// Add custom bordered sections
+.bordered {
+  border: 3px solid $dark;
+  p {
+    margin: 1rem;
+  }
+}
