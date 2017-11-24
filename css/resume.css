@@ -68,60 +68,6 @@ li:not(:last-child) {
   .bordered p {
     margin: 1rem; }
 
-.btn-circle {
-  width: 70px;
-  height: 70px;
-  margin-top: 14px;
-  padding: 7px 16px;
-  border: 2px solid #343a40;
-  border-radius: 100% !important;
-  font-size: 40px;
-  color: #343a40;
-  background: transparent;
-  -webkit-transition: background .3s ease-in-out;
-  -moz-transition: background .3s ease-in-out;
-  transition: background .3s ease-in-out; }
-  .btn-circle:hover, .btn-circle:focus {
-    outline: none;
-    color: #900202;
-    background: #fff; }
-  .btn-circle i.animated {
-    -webkit-transition-property: -webkit-transform;
-    -webkit-transition-duration: 1s;
-    -moz-transition-property: -moz-transform;
-    -moz-transition-duration: 1s; }
-  .btn-circle:hover i.animated {
-    -webkit-animation-name: pulse;
-    -moz-animation-name: pulse;
-    -webkit-animation-duration: 1.5s;
-    -moz-animation-duration: 1.5s;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-timing-function: linear; }
-
-@-webkit-keyframes pulse {
-  from {
-    -webkit-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2); }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1); } }
-
-@-moz-keyframes pulse {
-  from {
-    -moz-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    -moz-transform: scale(1.2);
-    transform: scale(1.2); }
-  100% {
-    -moz-transform: scale(1);
-    transform: scale(1); } }
-
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
   text-transform: uppercase; }
@@ -186,3 +132,20 @@ a {
   color: #900202; }
   a:hover, a:focus, a:active {
     color: #450101; }
+
+.btn {
+  border: none;
+  border-radius: 300px;
+  font-family: 'Open Sans', serif; }
+
+.btn-xl {
+  padding: 1rem 2rem; }
+
+.btn-primary {
+  background-color: #900202;
+  border-color: #900202; }
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    color: #fff;
+    background-color: #770202 !important; }
+  .btn-primary:active, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }
