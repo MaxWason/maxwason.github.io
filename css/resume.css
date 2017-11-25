@@ -133,6 +133,9 @@ a {
   a:hover, a:focus, a:active {
     color: #450101; }
 
+table td {
+  text-align: center; }
+
 .btn {
   border: none;
   border-radius: 300px;

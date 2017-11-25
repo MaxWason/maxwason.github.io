@@ -15,6 +15,11 @@ a {
   }
 }
 
+// Center table elements
+table td {
+  text-align: center;
+}
+
 // Alter buttons to have the correct colors
 // (and some other minimal transformations as well)
 .btn {
