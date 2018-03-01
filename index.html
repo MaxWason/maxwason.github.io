@@ -16,8 +16,8 @@
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <script defer src="/vendor/fontawesome/fontawesome-all.min.js"></script>
+    <link href="vendor/devicon/devicon.min.css" rel="stylesheet">
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
@@ -76,7 +76,7 @@
     <!-- End Navbar Section -->
 
     <!-- Start Main Container -->
-    <div class="container-fluid p-0">
+    <div class="container-fluid p-0 bg-main">
 
       <!-- Start Home Section -->
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="home">
@@ -90,13 +90,16 @@
           </div>
 
           <!-- TODO: Remove? -->
-          <p class="mb-5">Hello, and welcome to my website! I'm a software engineer focusing on results via effectiveness over shallow efficiency. I have demonstrated success with process improvement and interdisciplinary collaboration within the sphere of technical development, and I intend on continuing that trend.</p>
-
+          <p class="mb-5">Hello, and welcome to my website! I'm a software engineer focusing on results via effectiveness over shallow efficiency.
+              I have demonstrated success with process improvement and interdisciplinary collaboration within the sphere of technical development,
+              and I intend on continuing that trend. And, no that isn't just a collection of buzzwords; I truly mean all of that ;)</p>
+          <br />
           <p>
-            <b>Note: This website is in an extremely early state of development!</b> Expect large scale changes and improvements, especially to the layout/aesthetics.
+            <b>Note: This website is in an early state of development!</b> Expect large scale changes and improvements, especially to the layout/aesthetics. Check out the rewrite progress here:
+            <a href="https://gitlab.com/MaxWason/personal-website" class="devicon-gitlab-plain"></a>
           </p>
           <!-- Internal Links/Icons --> <!-- TODO: Refine, perhaps via arrow down with label of highlights? -->
-          <br />
+          <br /><br />
           <div class="d-flex">
             <a href="#highlights" class="btn btn-primary btn-x1 js-scroll-trigger mx-left">
                 Learn More
@@ -121,19 +124,19 @@
           <ul class="fa-ul mb-0">
 
             <li>
-              <i class="fa-li fa fa-line-chart"></i>
-               Independently designed, implemented, and marketed a set of video games that have over 13 million total downloads,
-               and over 1 million downloads a month (~50k/day).
+              <i class="fa-li fas fa-chart-line"></i>
+               Independently designed, implemented, and marketed a set of video games that have over 17 million total downloads,
+               and over 1.5 million monthly downloads (~50k/day).
                <!-- TODO: Add asterick to say how it may not be current. -->
              </li>
 
             <li>
-              <i class="fa-li fa fa-dollar"></i>
-              Developed an automated testing tool which saves a client over $750,000 annually.
+              <i class="fa-li fas fa-dollar-sign"></i>
+              Developed an automated testing tool which saved a client over $750,000 annually.
             </li>
 
             <li>
-              <i class="fa-li fa fa-handshake-o"></i>
+              <i class="fa-li far fa-handshake"></i>
               Obtained a variety of soft skill, such as communication, leadership, and teamwork, which were refined through a diversity of experiences.</li>
             </li>
 
@@ -183,58 +186,52 @@
 
           <!-- Popup or some way of describing what the icon is if it isn't clear -->
 
-          <div class="bordered">
+          <div class="bordered" id="deviconImages">
             <ul class="list-inline list-icons">
-              <li class="list-inline-item">
+              <li class="list-inline-item align-middle font-weight-bold">
                 <p>Core:</p>
               </li>
               <li class="list-inline-item">
-                <i class="devicons devicons-java"></i>
+                <i class="devicon-java-plain-wordmark colored"></i>
               </li>
               <li class="list-inline-item">
-                <i class="devicons devicons-intellij"></i>
+                <i class="devicon-python-plain-wordmark colored"></i>
               </li>
               <li class="list-inline-item">
-                <i class="devicons devicons-git"></i>
+                <i class="devicon-github-plain-wordmark colored"></i>
               </li>
               <li class="list-inline-item">
-                <i class="devicons devicons-github"></i>
+                <i class="devicon-git-plain-wordmark colored"></i>
               </li>
               <li class="list-inline-item">
-                <i class="devicons devicons-mysql"></i>
+                <i class="devicon-intellij-plain colored"></i>
               </li>
               <li class="list-inline-item">
-                <i class="devicons devicons-postgresql"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="devicons devicons-python"></i>
+                <i class="devicon-trello-plain-wordmark colored"></i>
               </li>
             </ul>
 
             <ul class="list-inline list-icons">
-              <li class="list-inline-item">
+              <li class="list-inline-item align-middle font-weight-bold">
                 <p>Web:</p>
               </li>
               <li class="list-inline-item">
-                <i class="devicons devicons-html5"></i>
+                <i class="devicon-html5-plain-wordmark colored"></i>
               </li>
               <li class="list-inline-item">
-                <i class="devicons devicons-css3"></i>
+                <i class="devicon-css3-plain-wordmark colored"></i>
               </li>
               <li class="list-inline-item">
-                <i class="devicons devicons-sass"></i>
+                <i class="devicon-vuejs-plain-wordmark colored"></i>
               </li>
               <li class="list-inline-item">
-                <i class="devicons devicons-javascript"></i>
+                <i class="devicon-bootstrap-plain-wordmark colored"></i>
               </li>
               <li class="list-inline-item">
-                <i class="devicons devicons-ruby"></i>
+                <i class="devicon-rails-plain-wordmark colored"></i>
               </li>
               <li class="list-inline-item">
-                <i class="devicons devicons-ruby_on_rails"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="devicons devicons-bootstrap"></i>
+                <i class="devicon-postgresql-plain-wordmark colored"></i>
               </li>
             </ul>
           </div>
@@ -254,9 +251,9 @@
           <!-- TODO: Can't scroll in it? -->
           <div class="collapse" id="collapseResume">
             <div class="embed-responsive" style="padding-bottom: 141.42%;">
-              <object class="embed-responsive-item" data="/content/MaxWason_GameDev_Resume_UpdatedNov2017.pdf" type="application/pdf" internalinstanceid="9" title="">
+              <object class="embed-responsive-item" data="/content/MaxWason_GameDev_Resume_UpdatedLateFeb2018.pdf" type="application/pdf" internalinstanceid="9" title="">
                 <p>Your browser doesn't support embedded pdf files. Click
-                  <a href="/content/MaxWason_GameDev_Resume_UpdatedNov2017.pdf">here</a>
+                  <a href="/content/MaxWason_GameDev_Resume_UpdatedLateFeb2018.pdf">here</a>
                   to download and view it.
                 </p>
               </object>
@@ -273,14 +270,14 @@
         <div class="my-auto">
           <h2 class="mb-5">Experience</h2>
 
-          <h3 class="mb-5">Technical</h3>
+          <h3 class="mb-5 text-primary">Technical</h3>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Game Developer</h3>
               <div class="subheading mb-3">Independent</div>
               <li>
-                Created a set of video game addons that have over 13 million cumulative downloads; they are currently peaking at just under 1.5 million more per month. For perspective, that's around 50,000 additional downloads every day.
+                Created a set of video game addons that have over 17 million cumulative downloads; they are currently peaking at just under 1.5 million more per month. For perspective, that's around 50,000 additional downloads every day.
               </li>
               <li>
                 Implemented large, complex, and collaborative works with best practices integrated throughout such as dedicated bug trackers, consistent git usage, and automated building/deployment.
@@ -307,7 +304,7 @@
                     <a href="#embedded" data-toggle="collapse" data-target="#collapseMod">
                       <span class="fa-stack fa-lg">
                         <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-youtube-play fa-stack-1x fa-inverse"></i>
+                        <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
                       </span>
                     </a>
                   </div>
@@ -317,7 +314,7 @@
                   <a href="https://minecraft.curseforge.com/projects/iron-backpacks">
                     <span class="fa-stack fa-lg">
                       <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-external-link fa-stack-1x fa-inverse"></i>
+                      <i class="fas fa-link fa-stack-1x fa-inverse"></i>
                     </span>
                   </a>
                 </li>
@@ -326,7 +323,7 @@
                   <a href="https://github.com/gr8pefish/IronBackpacks/graphs/contributors">
                     <span class="fa-stack fa-lg">
                       <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                      <i class="fab fa-github fa-stack-1x fa-inverse"></i>
                     </span>
                   </a>
                 </li>
@@ -366,7 +363,7 @@
                     <a href="#embedded" data-toggle="collapse" data-target="#collapsePlugin">
                       <span class="fa-stack fa-lg">
                         <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-youtube-play fa-stack-1x fa-inverse"></i>
+                        <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
                       </span>
                     </a>
                   </div>
@@ -376,7 +373,7 @@
                   <a href="https://chrome.google.com/webstore/detail/automated-website-testing/jajjkhengkceflfndohpbomnkdknnidc">
                     <span class="fa-stack fa-lg">
                       <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-external-link fa-stack-1x fa-inverse"></i>
+                      <i class="fas fa-link fa-stack-1x fa-inverse"></i>
                     </span>
                   </a>
                 </li>
@@ -385,7 +382,7 @@
                   <a href="https://github.com/NAUTeamWATER/ChromeTestingPlugin">
                     <span class="fa-stack fa-lg">
                       <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                      <i class="fab fa-github fa-stack-1x fa-inverse"></i>
                     </span>
                   </a>
                 </li>
@@ -451,7 +448,7 @@
           <!--Non-Technical Section -->
 
           <br /><br />
-          <h3 class="mb-5">Non Technical</h3>
+          <h3 class="mb-5 text-primary">Non Technical</h3>
 
           <div class="resume-item d-flex flex-column flex-md-row">
             <div class="resume-content mr-auto">
@@ -548,12 +545,12 @@
         <div class="my-auto">
           <h2 class="mb-5">Skills</h2>
 
-          <div class="subheading mb-3">Hard Skills</div>
+          <div class="subheading mb-3 text-primary">Hard Skills</div>
 
           <!-- Use 6 columns like I do on the resume? -->
           <!-- Include things like design patterns and practices? e.g. Issue Trackers, SaaS, DevOps, SDLC, MVC, Singleton, etc? -->
           <!-- Table for soft skills or standalone as-is? -->
-          <!-- TODO: Enforce zoomed out view on miobile, just scale down. -->
+          <!-- TODO: Enforce zoomed out view on mobile, just scale down. -->
 
           <!--
           hover adds highlights
@@ -794,6 +791,12 @@
                         <td></td><td></td><td></td>
                       </tr>
                       <tr>
+                          <th scope="row">Vue</th>
+                          <td></td><td></td>
+                          <td><i class="fa fa-check"></i></td>
+                          <td></td><td></td>
+                      </tr>
+                      <tr>
                         <th scope="row">Bootstrap</th>
                         <td></td><td></td>
                         <td><i class="fa fa-check"></i></td>
@@ -987,7 +990,7 @@
           <br />
 
           <!-- TODO: Same format of bubbles + text -->
-          <div class="subheading mb-3">Soft Skills</div>
+          <div class="subheading mb-3 text-primary">Soft Skills</div>
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-check"></i>
@@ -1003,7 +1006,7 @@
 
           <br>
 
-          <div class="subheading mb-3">Workflow</div>
+          <div class="subheading mb-3 text-primary">Workflow</div>
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-check"></i>
@@ -1106,7 +1109,7 @@
         <div class="my-auto">
           <h2 class="mb-5">Awards &amp; Certifications</h2>
 
-          <h4 class="mb-0"><i class="fa fa-trophy text-warning"></i> Awards <i class="fa fa-trophy text-warning"></i></h4>
+          <h4 class="mb-0"><i class="fas fa-trophy text-primary"></i> Awards <i class="fas fa-trophy text-primary"></i></h4>
 
           <br />
 
@@ -1128,7 +1131,7 @@
             </div>
           </div>
 
-          <h4 class="mb-0"><i class="fa fa-bank text-danger"></i> Certifications <i class="fa fa-university text-danger"></i></h4>
+          <h4 class="mb-0"><i class="fas fa-university text-primary"></i> Certifications <i class="fas fa-university text-primary"></i></h4>
 
           <br />
 
@@ -1160,7 +1163,7 @@
 
           <h2 class="mb-5">Contact</h2>
 
-          <div class="subheading mb-5"><i class="fa fa-envelope-o"></i>
+          <div class="subheading mb-5"><i class="far fa-envelope"></i>
              <a href="mailto:max@maxwason.com"> max@maxwason.com</a>
           </div>
 
@@ -1170,7 +1173,7 @@
               <a href="https://www.linkedin.com/in/maxwason/">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                  <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
                 </span>
               </a>
             </li>
@@ -1178,7 +1181,7 @@
               <a href="https://github.com/MaxWason">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
                 </span>
               </a>
             </li>

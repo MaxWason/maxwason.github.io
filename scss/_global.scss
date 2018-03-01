@@ -3,7 +3,7 @@
 body {
   @include body-font;
   padding-top: 54px;
-  color: $gray-600;
+  color: $gray-900;
 }
 @media (min-width: 992px) {
   body {
@@ -21,7 +21,7 @@ h6 {
   @include heading-font;
   font-weight: 700;
   text-transform: uppercase;
-  color: $gray-800;
+  color: $gray-900;
 }
 
 h1 {
@@ -55,11 +55,12 @@ h2 {
 
 .list-icons {
   font-size: 3rem;
-  .list-inline-item i {
-    &:hover {
-      color: $primary;
-    }
-  }
+  // Uses lower rule, for grayscale toggle
+  //.list-inline-item i {
+  //  &:hover {
+  //    color: $primary;
+  //  }
+  //}
   .list-inline-item p {
     font-size: 0.75rem;
   }
@@ -84,10 +85,27 @@ li:not(:last-child) {
   }
 }
 
+.list-inline-item {
+    i {
+      filter: grayscale(100%);
+      &:hover {
+        filter: none;
+      }
+    }
+}
+
 // Add custom bordered sections
 .bordered {
   border: 3px solid $dark;
   p {
     margin: 1rem;
+  }
+}
+
+.card-header {
+  h5 {
+    a {
+      color: $gray-900;
+    }
   }
 }

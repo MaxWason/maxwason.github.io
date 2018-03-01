@@ -1,12 +1,12 @@
 /*!
- * Start Bootstrap - Resume v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/resume)
- * Copyright 2013-2018 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ * Start Bootstrap - Personal v1.0.0-beta.2 (https://maxwason.com)
+ * Copyright 2013-2018 Max Wason
+ * Licensed under MIT (https://github.com/BlackrockDigital/personal/blob/master/LICENSE)
  */
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
-  color: #868e96; }
+  color: #212529; }
 
 @media (min-width: 992px) {
   body {
@@ -22,7 +22,7 @@ h6 {
   font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: #343a40; }
+  color: #212529; }
 
 h1 {
   font-size: 6rem;
@@ -41,14 +41,12 @@ h2 {
 .list-social-icons a {
   color: #495057; }
   .list-social-icons a:hover {
-    color: #900202; }
+    color: #680101; }
   .list-social-icons a .fa-lg {
     font-size: 1.75rem; }
 
 .list-icons {
   font-size: 3rem; }
-  .list-icons .list-inline-item i:hover {
-    color: #900202; }
   .list-icons .list-inline-item p {
     font-size: 0.75rem; }
 
@@ -63,10 +61,18 @@ li:not(:last-child) {
   #companyImages img:hover {
     filter: none; }
 
+.list-inline-item i {
+  filter: grayscale(100%); }
+  .list-inline-item i:hover {
+    filter: none; }
+
 .bordered {
-  border: 3px solid #343a40; }
+  border: 3px solid #090C10; }
   .bordered p {
     margin: 1rem; }
+
+.card-header h5 a {
+  color: #212529; }
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
@@ -123,15 +129,18 @@ section.resume-section {
     padding-bottom: 3rem !important; } }
 
 .bg-primary {
-  background-color: #900202 !important; }
+  background-color: #000 !important; }
+
+.bg-main {
+  background-color: #fafafa !important; }
 
 .text-primary {
-  color: #900202 !important; }
+  color: #680101 !important; }
 
 a {
-  color: #900202; }
+  color: #680101; }
   a:hover, a:focus, a:active {
-    color: #450101; }
+    color: #1c0000; }
 
 table td {
   text-align: center; }
@@ -145,10 +154,10 @@ table td {
   padding: 1rem 2rem; }
 
 .btn-primary {
-  background-color: #900202;
-  border-color: #900202; }
+  background-color: #680101;
+  border-color: #680101; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     color: #fff;
-    background-color: #770202 !important; }
+    background-color: #4f0101 !important; }
   .btn-primary:active, .btn-primary:focus {
-    box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }
+    box-shadow: 0 0 0 0.2rem #868e96 !important; }

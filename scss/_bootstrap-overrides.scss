@@ -1,5 +1,9 @@
 .bg-primary {
-  background-color: $primary !important;
+  background-color: $primarybg !important;
+}
+
+.bg-main {
+  background-color: $mainbg !important;
 }
 
 .text-primary {
@@ -43,6 +47,6 @@ table td {
   }
   &:active,
   &:focus {
-    box-shadow: 0 0 0 0.2rem rgba(240, 95, 64,.5) !important;
+    box-shadow: 0 0 0 0.2rem $gray-600 !important;
   }
 }
