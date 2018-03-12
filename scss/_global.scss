@@ -85,6 +85,15 @@ li:not(:last-child) {
   }
 }
 
+#collapseKey {
+  ul {
+    padding-top: 1rem;
+    li {
+      font-size: 0.9rem;
+    }
+  }
+}
+
 .list-inline-item {
     i {
       filter: grayscale(100%);

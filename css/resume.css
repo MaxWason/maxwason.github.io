@@ -41,7 +41,7 @@ h2 {
 .list-social-icons a {
   color: #495057; }
   .list-social-icons a:hover {
-    color: #680101; }
+    color: #b4251f; }
   .list-social-icons a .fa-lg {
     font-size: 1.75rem; }
 
@@ -60,6 +60,11 @@ li:not(:last-child) {
   filter: grayscale(100%); }
   #companyImages img:hover {
     filter: none; }
+
+#collapseKey ul {
+  padding-top: 1rem; }
+  #collapseKey ul li {
+    font-size: 0.9rem; }
 
 .list-inline-item i {
   filter: grayscale(100%); }
@@ -132,15 +137,15 @@ section.resume-section {
   background-color: #000 !important; }
 
 .bg-main {
-  background-color: #fafafa !important; }
+  background-color: #fdfdfd !important; }
 
 .text-primary {
-  color: #680101 !important; }
+  color: #b4251f !important; }
 
 a {
-  color: #680101; }
+  color: #b4251f; }
   a:hover, a:focus, a:active {
-    color: #1c0000; }
+    color: #731814; }
 
 table td {
   text-align: center; }
@@ -154,10 +159,10 @@ table td {
   padding: 1rem 2rem; }
 
 .btn-primary {
-  background-color: #680101;
-  border-color: #680101; }
+  background-color: #b4251f;
+  border-color: #b4251f; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     color: #fff;
-    background-color: #4f0101 !important; }
+    background-color: #9e211c !important; }
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem #868e96 !important; }
